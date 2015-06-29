@@ -1,0 +1,69 @@
+#How we record issues and resolutions
+# About this page #
+
+The proposal on this page was put up for vote in [an email](https://groups.google.com/forum/#!topic/bfo-devel/DoDg9N4Tn6w) to the mailing list. As of May 7, all speaking voted to approve, and so this policy is now active. Please do not change the text below, other than to add to the Comments section.
+
+# Background #
+
+On April 30, 2012, Alan Ruttenberg sent the following [message](https://groups.google.com/forum/?fromgroups#!topic/bfo-devel/DoDg9N4Tn6w):
+
+Thus far we haven't had any global, agreed-upon method for tracking and then marking as resolved issue related to our effort. As Barry has indicated to me that his work on the first draft of the reference is nearly complete, it is appropriate, now, that we do.
+
+If you plan to be active in further development of BFO2, please respond, by Monday, May 7, about whether you agree to this plan. Responses indicating disagreement must be accompanied by alternative suggestions on how to track and record resolution of issues.
+
+At that point, if there are only messages in support, and none dissenting, this will be considered policy. If there is a mixture of support/dissent I will send out a doodle poll to have a teleconference to discuss the differences of opinion.
+
+# Approved #
+
+We use the issue tracker on the BFO google code project (http://code.google.com/p/bfo/issues)  to track all issues, which would be marked to indicate they are in one of four categories:
+
+Reference issues: Issues in either design choices made in the document, including omissions, or more mundane errors of fact, exposition, grammar, or concerns thereof, in the document.
+
+OWL issues: Issues associated with the OWL rendering of BFO2. Includes issues such as axioms chosen, fidelity to reference, documentation provided, labels, properties, distribution, support related to previous versions.
+
+FOL issues: Issues related to the FOL rendering, including axioms included, fidelity to reference, documentation provided, proofs - manual and automatic.
+
+Process issues: We have hardly any at the moment, including how we decide on a policy such as this. We can bootstrap by agreeing to what I propose here so that at least the construction of the rest of our policy can be recorded by raising issues and recording their resolutions.
+
+We request that issue submitters tag their issues with one of the following:
+
+  * _Type-BFO2-Reference_
+  * _Type-BFO2-OWL_
+  * _Type-BFO2-FOL_
+  * _Type-BFO2-Process_
+
+We will customize the templates to indicate the above.
+
+Proposals for resolution of an issue will be recorded as a comment on the issue, with a status tag: _Proposal-to-resolve_. Issues would be marked as resolved by a comment indicating the resolution adopted, the authority/process by which the issue was decided to be resolved and a summary of changed to documents (ideally diffs).
+
+During this phase of development we will direct transactions to bfo-devel@googlegroups.com. Once this phase of development is complete, we will once again have issue transactions directed to the larger bfo-discuss@googlegroups.com
+
+# Comments #
+
+Please record any comments on the above here, and indicate who you are. Anonymous comments will be removed. If you don't have permission to edit this page, send you comment to bfo-devel@googlegroups.com and they will be added here.
+
+Melanie Courtot raises the issue of whether having all the issues for the different aspects on the same issue tracker will be confusing for users, and whether those interested in only one aspect will be annoyed by receiving issue notifications from all efforts. Alan responds that there are some PROs: Easy to see all issues about BFO, easier to manage one issue list, and some possible mitigation strategies: e.g. showing how to set up gmail filter to see only, e.g. BFO OWL issue notifications. However he doesn't feel too strongly about this one way or the other. Alan will raise issue on Monday in summary of vote, probe for whether Melanie has further thoughts and whether there are others who think this is worth discussing further, and decide from there what to do.
+
+# Record of votes #
+
+The below records votes received before May 7
+
+  * Alan Ruttenberg: Agree
+  * Barry Smith: Agree
+  * Randy Dipert: Agree
+  * Albert Goldfain: Agree
+  * Darren Natale: Agree
+  * Bill Duncan: Agree
+  * Larry Hunter: Agree
+  * Melissa Haendel: Agree
+  * Chris Mungall: Agree
+  * Mathias Brochhausen: Agree
+  * Ron Rudnicki: Agree
+  * Leonard Jacuzzo: Agree
+  * David Osumi-Sutherland: Agree
+  * Mark Jensen: Agree
+  * Bjoern Peters: Agree
+  * Bill Hogan: Agree
+  * Tom Bittner: Agree
+  * Stefan Schulz: Agree
+  * Carmelo Gaudioso: Agree

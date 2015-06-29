@@ -1,0 +1,111 @@
+part of [Three\_threads\_about\_temporal\_issues](Three_threads_about_temporal_issues.md)
+
+## Subject: the right way to do stages ##
+
+---
+
+
+From: Barry Smith <phismith@buffalo.edu>
+Date: Tue, Feb 7, 2012 at 1:04 PM
+To: Alan Ruttenberg <alanruttenberg@gmail.com>
+Cc: Stefan Schulz <stefan.schulz@medunigraz.at>, Werner Ceusters <ceusters@buffalo.edu>, Mark Ressler <mark@markressler.com>
+
+
+E = for some
+A = for all
+
+fetus is a non-rigid continuant universal, sub-universal of the rigid universal human being
+fetus-stage is an occurrent universal (all occurrent universals are rigid)
+history and temporal part are as defined in the BFO 2.0 Draft Document
+t can be a temporal instant or temporal interval
+
+x instance\_of fetus at t =def.
+
+Eyzt'(fetus-stage(y) & z history\_of x & y temporal\_part\_of z & y occupy t & t part\_of t’)
+
+---
+
+This is an alternative account using Werner's 'agent\_of' (here called unique\_major\_participant\_in) instead of histories:
+
+
+x unique\_major\_participant\_in p at t =def. material\_entity(x) & x participates\_in p at t & Ay((y participates\_in p at t & material\_entity(y) à y part\_of x at t)
+
+x instance\_of fetus at t =def.
+Eyt'(fetus-stage(y) & y occupy t & t part\_of t’ & x unique\_major\_participant\_in y at t)
+
+
+
+---
+
+From: Alan Ruttenberg <alanruttenberg@gmail.com>
+Date: Tue, Feb 7, 2012 at 1:48 PM
+To: Barry Smith <phismith@buffalo.edu>
+Cc: Stefan Schulz <stefan.schulz@medunigraz.at>, Werner Ceusters <ceusters@buffalo.edu>, Mark Ressler <mark@markressler.com>
+
+
+Looks like you don't need t' as it is free and there isn't any t that isn't part of some other t', minimally itself.
+You need somewhere that fetus is\_a organism.
+
+In the next OWL prototype I check in this is the universal 'human that lives until fetus' that is\_a human
+Also there will be a 'computational artifact individual'  (i.e. OWL individual that doesn't represent any BFO particular, but which can be used to make temporally restricted assertions on human) currently called 'human as fetus'. Assertions on 'human as fetus' are defined to only hold during the times that the human participates in fetus stage. Because of this, and because 'human as fetus' isn't even a universal, nor the OWL individuals that are its membersBFO particulars,  'human as fetus' is not even a subclass of human.
+
+unique\_major\_participant is not better than agent\_of, IMO, so I'm not bothering to review the below. (sorry Werner).
+
+-Alan
+
+
+
+---
+
+From: Barry Smith <phismith@buffalo.edu>
+Date: Tue, Feb 7, 2012 at 2:00 PM
+To: Alan Ruttenberg <alanruttenberg@gmail.com>
+Cc: Stefan Schulz <stefan.schulz@medunigraz.at>, Werner Ceusters <ceusters@buffalo.edu>, Mark Ressler <mark@markressler.com>
+
+
+Even better
+That won't do, since an embryo is not a fetus
+BS
+
+
+
+---
+
+From: Alan Ruttenberg <alanruttenberg@gmail.com>
+Date: Tue, Feb 7, 2012 at 2:04 PM
+To: Barry Smith <phismith@buffalo.edu>
+Cc: Stefan Schulz <stefan.schulz@medunigraz.at>, Werner Ceusters <ceusters@buffalo.edu>, Mark Ressler <mark@markressler.com>
+
+
+Lost you. can you expand on what you are concluding and how?
+By my definitions (which strictly extend yours):
+Every human that lives until fetus is also a human that lives until embryo.
+No 'human as embryo' is also a 'human as fetus'.
+I didn't use the terms 'fetus' and 'embryo' (yet - they may turn out to be reasonable labels for something)
+-Alan
+
+
+
+---
+
+From: Barry Smith <phismith@buffalo.edu>
+Date: Tue, Feb 7, 2012 at 2:10 PM
+To: Alan Ruttenberg <alanruttenberg@gmail.com>
+
+
+What we are trying to say is x instance of fetus at t
+This is a different assertion from x instance of human that lives until fetus at t
+(The difference is incidentally wildly problematic from an epistemological point of view)
+BS
+
+
+
+---
+
+From: Alan Ruttenberg <alanruttenberg@gmail.com>
+Date: Tue, Feb 7, 2012 at 4:46 PM
+To: Barry Smith <phismith@buffalo.edu>
+
+
+There is no "at t" in my assertion. As far as I know, in the world we live in, either both are true or neither.
+"we are doing ontology not epistemology"

@@ -1,0 +1,16 @@
+# The PURLs #
+
+> ## Reference PURLs ##
+    * http://purl.obolibrary.org/obo/bfo - The google code home page
+    * http://purl.obolibrary.org/obo/bfo/dev/bfo.owl - BFO2 development version
+    * http://purl.obolibrary.org/obo/bfo/wiki  - This wiki
+    * http://purl.obolibrary.org/obo/bfo/repository - The google code subversion repository
+    * http://purl.obolibrary.org/obo/bfo/browse - View using the Manchester OWL Browser
+    * http://purl.obolibrary.org/obo/bfo/tracker - Goes to the issues list
+    * http://purl.obolibrary.org/obo/bfo/Reference - The reference document
+    * http://purl.obolibrary.org/obo/bfo.owl - The latest released version
+
+> ## Dated PURLs ##
+    * http://purl.obolibrary.org/obo/bfo/2012-07-20/Reference
+    * http://purl.obolibrary.org/obo/bfo/2012-07-20/ReleaseNotes
+    * http://purl.obolibrary.org/obo/bfo/2012-07-20/bfo.owl
